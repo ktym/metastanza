@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/dist/resource/stanza#"
+  },
+  "@id": "http://togostanza.org/dist/metastanza/coordmap",
+  "stanza:label": "D3 coordmap",
+  "stanza:definition": "Visualize SPARQL results with d3sparql coordmap.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "sparql_api",
+      "stanza:example": "http://togostanza.org/sparqlist/api/d3sparql_coordmap",
+      "stanza:description": "SPARQL/REST API URL",
+      "stanza:required": true
+    },
+    {
+      "stanza:key": "title",
+      "stanza:example": "D3 coordmap",
+      "stanza:description": "Title of visualization",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "width",
+      "stanza:example": "960",
+      "stanza:description": "Width of canvas",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "height",
+      "stanza:example": "480",
+      "stanza:description": "Height of canvas",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "var_lat",
+      "stanza:example": "lat",
+      "stanza:description": "Variable name for latitude (defalut is the first variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "var_lng",
+      "stanza:example": "lng",
+      "stanza:description": "Variable name for longitude (default is the second variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "radius",
+      "stanza:example": "5",
+      "stanza:description": "Radius of points on the map",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "color",
+      "stanza:example": "#FF3333",
+      "stanza:description": "Color of points on the map",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "topojson",
+      "stanza:example": "http://example.org/path/to/world-50m.json",
+      "stanza:description": "URL of a TopoJSON file",
+      "stanza:required": false
+    }
+  ],
+  "stanza:usage": "<togostanza-coordmap sparql_api=\"http://togostanza.org/sparqlist/api/d3sparql_coordmap\" title=\"D3 coordmap\"></togostanza-coordmap>",
+  "stanza:type": "MetaStanza",
+  "stanza:context": "Generic",
+  "stanza:display": "Map",
+  "stanza:provider": "DBCLS",
+  "stanza:license": "CC-BY",
+  "stanza:author": "Toshiaki Katayama",
+  "stanza:address": "ktym@dbcls.jp",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2017-09-11",
+  "stanza:updated": "2018-04-06"
+}

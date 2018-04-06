@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/dist/resource/stanza#"
+  },
+  "@id": "http://togostanza.org/dist/metastanza/circlepack",
+  "stanza:label": "D3 circlepack",
+  "stanza:definition": "Visualize SPARQL results with d3sparql circlepack.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "sparql_api",
+      "stanza:example": "http://togostanza.org/sparqlist/api/d3sparql_circlepack?organism=Tardigrada",
+      "stanza:description": "SPARQL/REST API URL",
+      "stanza:required": true
+    },
+    {
+      "stanza:key": "title",
+      "stanza:example": "D3 circlepack",
+      "stanza:description": "Title of visualization",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "width",
+      "stanza:example": "800",
+      "stanza:description": "Width of canvas",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "height",
+      "stanza:example": "800",
+      "stanza:description": "Height of canvas",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "diameter",
+      "stanza:example": "700",
+      "stanza:description": "Diameter of circle",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "root",
+      "stanza:example": "root_name",
+      "stanza:description": "Variable name for a root node (default is the first variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "parent",
+      "stanza:example": "parent_name",
+      "stanza:description": "Variable name of parent nodes (default is the second variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "child",
+      "stanza:example": "child_name",
+      "stanza:description": "Variable name of child nodes (default is the third variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "value",
+      "stanza:example": "value_name",
+      "stanza:description": "Variable name of numerical value of the child node (default is the fourth variable)",
+      "stanza:required": false
+    }
+  ],
+  "stanza:usage": "<togostanza-circlepack sparql_api=\"http://togostanza.org/sparqlist/api/d3sparql_circlepack?organism=Tardigrada\" title=\"D3 circlepack\"></togostanza-circlepack>",
+  "stanza:type": "MetaStanza",
+  "stanza:context": "Generic",
+  "stanza:display": "Tree",
+  "stanza:provider": "DBCLS",
+  "stanza:license": "CC-BY",
+  "stanza:author": "Toshiaki Katayama",
+  "stanza:address": "ktym@dbcls.jp",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2017-09-11",
+  "stanza:updated": "2018-04-06"
+}

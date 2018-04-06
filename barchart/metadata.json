@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/dist/resource/stanza#"
+  },
+  "@id": "http://togostanza.org/dist/metastanza/barchart",
+  "stanza:label": "D3 barchart",
+  "stanza:definition": "Visualize SPARQL results with d3sparql barchart.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "sparql_api",
+      "stanza:example": "http://togostanza.org/sparqlist/api/d3sparql_barchart",
+      "stanza:description": "SPARQL/REST API URL",
+      "stanza:required": true
+    },
+    {
+      "stanza:key": "title",
+      "stanza:example": "D3 barchart",
+      "stanza:description": "Title of visualization",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "width",
+      "stanza:example": "750",
+      "stanza:description": "Width of canvas",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "height",
+      "stanza:example": "300",
+      "stanza:description": "Height of canvas",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "var_x",
+      "stanza:example": "X axis var",
+      "stanza:description": "Variable name for X axis (default is the first variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "var_y",
+      "stanza:example": "Y axis var",
+      "stanza:description": "Variable name for Y axis (default is the second variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "label_x",
+      "stanza:example": "X axis label",
+      "stanza:description": "Label for X axis (default is same as the var_x variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "label_y",
+      "stanza:example": "Y axis label",
+      "stanza:description": "Label for Y axis (default is same as the var_y variable)",
+      "stanza:required": false
+    }
+  ],
+  "stanza:usage": "<togostanza-barchart sparql_api=\"http://togostanza.org/sparqlist/api/d3sparql_barchart\" title=\"D3 barchart\"></togostanza-barchart>",
+  "stanza:type": "MetaStanza",
+  "stanza:context": "Generic",
+  "stanza:display": "Chart",
+  "stanza:provider": "DBCLS",
+  "stanza:license": "CC-BY",
+  "stanza:author": "Toshiaki Katayama",
+  "stanza:address": "ktym@dbcls.jp",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2017-09-11",
+  "stanza:updated": "2018-04-06"
+}

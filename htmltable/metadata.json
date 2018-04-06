@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/dist/resource/stanza#"
+  },
+  "@id": "http://togostanza.org/dist/metastanza/htmltable",
+  "stanza:label": "D3 htmltable",
+  "stanza:definition": "Visualize SPARQL results with d3sparql htmltable.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "sparql_api",
+      "stanza:example": "http://togostanza.org/sparqlist/api/d3sparql_htmltable?tax=1117&interpro=IPR005467",
+      "stanza:description": "SPARQL/REST API URL",
+      "stanza:required": true
+    },
+    {
+      "stanza:key": "title",
+      "stanza:example": "D3 htmltable",
+      "stanza:description": "Title of visualization",
+      "stanza:required": false
+    }
+  ],
+  "stanza:usage": "<togostanza-htmltable sparql_api=\"http://togostanza.org/sparqlist/api/d3sparql_htmltable?tax=1117&interpro=IPR005467\" title=\"D3 htmltable\"></togostanza-htmltable>",
+  "stanza:type": "MetaStanza",
+  "stanza:context": "Generic",
+  "stanza:display": "Table",
+  "stanza:provider": "DBCLS",
+  "stanza:license": "CC-BY",
+  "stanza:author": "Toshiaki Katayama",
+  "stanza:address": "ktym@dbcls.jp",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2017-09-11",
+  "stanza:updated": "2018-04-06"
+}

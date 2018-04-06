@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/dist/resource/stanza#"
+  },
+  "@id": "http://togostanza.org/dist/metastanza/namedmap",
+  "stanza:label": "D3 namedmap",
+  "stanza:definition": "Visualize SPARQL results with d3sparql namedmap.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "sparql_api",
+      "stanza:example": "http://togostanza.org/sparqlist/api/d3sparql_namedmap",
+      "stanza:description": "SPARQL/REST API URL",
+      "stanza:required": true
+    },
+    {
+      "stanza:key": "title",
+      "stanza:example": "D3 namedmap",
+      "stanza:description": "Title of visualization",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "width",
+      "stanza:example": "1000",
+      "stanza:description": "Width of canvas",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "height",
+      "stanza:example": "1000",
+      "stanza:description": "Height of canvas",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "label",
+      "stanza:example": "name",
+      "stanza:description": "Variable name for location names (default is the first variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "value",
+      "stanza:example": "size",
+      "stanza:description": "Variable name for numerical values (default is the second variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "color_max",
+      "stanza:example": "blue",
+      "stanza:description": "Color for maximum value",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "color_min",
+      "stanza:example": "white",
+      "stanza:description": "Color for minimum value",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "color_scale",
+      "stanza:example": "linear",
+      "stanza:description": "Color scale (linear or log)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "topojson",
+      "stanza:example": "http://example.org/path/to/japan.topojson",
+      "stanza:description": "URL of a TopoJSON file",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "mapname",
+      "stanza:example": "japan",
+      "stanza:description": "JSON key name of a map location root (e.g., objects: { japan: { type: GeometryCollection, ...)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "keyname",
+      "stanza:example": "name",
+      "stanza:description": "JSON key name of a map locations matched with label (e.g., properties: { name: Tokyo, ...)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "center_lat",
+      "stanza:example": "34",
+      "stanza:description": "Latitude of center of the map",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "center_lng",
+      "stanza:example": "137",
+      "stanza:description": "Longitude of center of the map",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "scale",
+      "stanza:example": "1000",
+      "stanza:description": "Scale of map rendering",
+      "stanza:required": false
+    }
+  ],
+  "stanza:usage": "<togostanza-namedmap sparql_api=\"http://togostanza.org/sparqlist/api/d3sparql_namedmap\" title=\"D3 namedmap\" topojson=\"http://biohackathon.org/d3sparql/lib/d3/map/japan.topojson\"></togostanza-namedmap>",
+  "stanza:type": "MetaStanza",
+  "stanza:context": "Generic",
+  "stanza:display": "Map",
+  "stanza:provider": "DBCLS",
+  "stanza:license": "CC-BY",
+  "stanza:author": "Toshiaki Katayama",
+  "stanza:address": "ktym@dbcls.jp",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2017-09-11",
+  "stanza:updated": "2018-04-06"
+}

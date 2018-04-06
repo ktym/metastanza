@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/dist/resource/stanza#"
+  },
+  "@id": "http://togostanza.org/dist/metastanza/piechart",
+  "stanza:label": "D3 piechart",
+  "stanza:definition": "Visualize SPARQL results with d3sparql piechart.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "sparql_api",
+      "stanza:example": "http://togostanza.org/sparqlist/api/d3sparql_piechart",
+      "stanza:description": "SPARQL/REST API URL",
+      "stanza:required": true
+    },
+    {
+      "stanza:key": "title",
+      "stanza:example": "D3 piechart",
+      "stanza:description": "Title of visualization",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "width",
+      "stanza:example": "700",
+      "stanza:description": "Width of canvas",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "height",
+      "stanza:example": "600",
+      "stanza:description": "Height of canvas",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "margin",
+      "stanza:example": "10",
+      "stanza:description": "Margin of canvas",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "label",
+      "stanza:example": "pref",
+      "stanza:description": "Variable name for slice label",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "size",
+      "stanza:example": "area",
+      "stanza:description": "Variable name for slice value",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "hole",
+      "stanza:example": "50",
+      "stanza:description": "Radius of a cente hole (set 0 for pie, >0 for doughnut)",
+      "stanza:required": false
+    }
+  ],
+  "stanza:usage": "<togostanza-piechart sparql_api=\"http://togostanza.org/sparqlist/api/d3sparql_piechart\" title=\"D3 piechart\"></togostanza-piechart>",
+  "stanza:type": "MetaStanza",
+  "stanza:context": "Generic",
+  "stanza:display": "Chart",
+  "stanza:provider": "DBCLS",
+  "stanza:license": "CC-BY",
+  "stanza:author": "Toshiaki Katayama",
+  "stanza:address": "ktym@dbcls.jp",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2017-09-11",
+  "stanza:updated": "2018-04-06"
+}
