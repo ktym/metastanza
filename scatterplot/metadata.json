@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/dist/resource/stanza#"
+  },
+  "@id": "http://togostanza.org/dist/metastanza/scatterplot",
+  "stanza:label": "D3 scatterplot",
+  "stanza:definition": "Visualize SPARQL results with d3sparql scatterplot.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "sparql_api",
+      "stanza:example": "http://togostanza.org/sparqlist/api/d3sparql_scatterplot",
+      "stanza:description": "SPARQL/REST API URL",
+      "stanza:required": true
+    },
+    {
+      "stanza:key": "title",
+      "stanza:example": "D3 scatterplot",
+      "stanza:description": "Title of visualization",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "width",
+      "stanza:example": "850",
+      "stanza:description": "Width of canvas",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "height",
+      "stanza:example": "300",
+      "stanza:description": "Height of canvas",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "var_x",
+      "stanza:example": "X axis var",
+      "stanza:description": "Variable name for X axis (default is the first variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "var_y",
+      "stanza:example": "Y axis var",
+      "stanza:description": "Variable name for Y axis (default is the second variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "var_r",
+      "stanza:example": "Radius var",
+      "stanza:description": "Variable name for radius (default is the third variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "min_r",
+      "stanza:example": "1",
+      "stanza:description": "Minimal value for radius",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "max_r",
+      "stanza:example": "20",
+      "stanza:description": "Maximal value for radius",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "label_x",
+      "stanza:example": "X axis label",
+      "stanza:description": "Label for X axis (default is same as the var_x variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "label_y",
+      "stanza:example": "Y axis label",
+      "stanza:description": "Label for Y axis (default is same as the var_y variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "label_r",
+      "stanza:example": "Point label or var",
+      "stanza:description": "Tooltip variable name or label for point (default is same as the var_r variable)",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "margin_x",
+      "stanza:example": "80",
+      "stanza:description": "Margin of canvas for x axis",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "margin_y",
+      "stanza:example": "40",
+      "stanza:description": "Margin of canvas for y axis",
+      "stanza:required": false
+    }
+  ],
+  "stanza:usage": "<togostanza-scatterplot sparql_api=\"http://togostanza.org/sparqlist/api/d3sparql_scatterplot\" min_r=5 label_r=\"pref\" xctitle=\"D3 scatterplot\"></togostanza-scatterplot>",
+  "stanza:type": "MetaStanza",
+  "stanza:context": "Generic",
+  "stanza:display": "Chart",
+  "stanza:provider": "DBCLS",
+  "stanza:license": "CC-BY",
+  "stanza:author": "Toshiaki Katayama",
+  "stanza:address": "ktym@dbcls.jp",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2018-05-04",
+  "stanza:updated": "2018-05-04"
+}
