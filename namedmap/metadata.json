@@ -32,13 +32,13 @@
     },
     {
       "stanza:key": "label",
-      "stanza:example": "name",
+      "stanza:example": "label",
       "stanza:description": "Variable name for location names (default is the first variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "value",
-      "stanza:example": "size",
+      "stanza:example": "value",
       "stanza:description": "Variable name for numerical values (default is the second variable)",
       "stanza:required": false
     },
@@ -62,7 +62,7 @@
     },
     {
       "stanza:key": "topojson",
-      "stanza:example": "http://example.org/path/to/japan.topojson",
+      "stanza:example": "http://biohackathon.org/d3sparql/lib/d3/map/japan.topojson",
       "stanza:description": "URL of a TopoJSON file",
       "stanza:required": false
     },
@@ -74,7 +74,7 @@
     },
     {
       "stanza:key": "keyname",
-      "stanza:example": "name",
+      "stanza:example": "name_local",
       "stanza:description": "JSON key name of a map locations matched with label (e.g., properties: { name: Tokyo, ...)",
       "stanza:required": false
     },
@@ -92,7 +92,7 @@
     },
     {
       "stanza:key": "scale",
-      "stanza:example": "1000",
+      "stanza:example": "10000",
       "stanza:description": "Scale of map rendering",
       "stanza:required": false
     }
@@ -108,5 +108,5 @@
   "stanza:contributor": [
   ],
   "stanza:created": "2017-09-11",
-  "stanza:updated": "2018-04-06"
+  "stanza:updated": "2019-10-14"
 }

@@ -8,7 +8,7 @@
   "stanza:parameter": [
     {
       "stanza:key": "sparql_api",
-      "stanza:example": "http://togostanza.org/sparqlist/api/d3sparql_coordmap",
+      "stanza:example": "https://www.ebi.ac.uk/rdf/services/sparql?query=PREFIX+dc%3A+<http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F>%0D%0APREFIX+biosd-terms%3A+<http%3A%2F%2Frdf.ebi.ac.uk%2Fterms%2Fbiosd%2F>%0D%0APREFIX+sio%3A+<http%3A%2F%2Fsemanticscience.org%2Fresource%2F>%0D%0APREFIX+xsd%3A+<http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23>%0D%0A%0D%0ASELECT+DISTINCT+%3Fitem+%3Flat+%3Flng%0D%0AWHERE+%7B%0D%0A++%3Fitem+biosd-terms%3Ahas-sample-attribute+%3Flat_value%2C+%3Flng_value+.%0D%0A%0D%0A++%3Flat_value%0D%0A++++dc%3Atype+%22latitude%22%5E%5Exsd%3Astring+%3B%0D%0A++++sio%3ASIO_000300+%3Flat+.%0D%0A%0D%0A++%3Flng_value%0D%0A++++dc%3Atype+%22longitude%22%5E%5Exsd%3Astring+%3B%0D%0A++++sio%3ASIO_000300+%3Flng+.%0D%0A%7D%0D%0ALIMIT+1000",
       "stanza:description": "SPARQL/REST API URL",
       "stanza:required": true
     },
@@ -20,7 +20,7 @@
     },
     {
       "stanza:key": "width",
-      "stanza:example": "960",
+      "stanza:example": "880",
       "stanza:description": "Width of canvas",
       "stanza:required": false
     },
@@ -56,7 +56,7 @@
     },
     {
       "stanza:key": "topojson",
-      "stanza:example": "http://example.org/path/to/world-50m.json",
+      "stanza:example": "http://biohackathon.org/d3sparql/lib/d3/map/world-50m.json",
       "stanza:description": "URL of a TopoJSON file",
       "stanza:required": false
     }
@@ -72,5 +72,5 @@
   "stanza:contributor": [
   ],
   "stanza:created": "2017-09-11",
-  "stanza:updated": "2018-04-06"
+  "stanza:updated": "2019-10-14"
 }

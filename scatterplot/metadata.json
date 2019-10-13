@@ -32,19 +32,19 @@
     },
     {
       "stanza:key": "var_x",
-      "stanza:example": "X axis var",
+      "stanza:example": "population",
       "stanza:description": "Variable name for X axis (default is the first variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "var_y",
-      "stanza:example": "Y axis var",
+      "stanza:example": "area",
       "stanza:description": "Variable name for Y axis (default is the second variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "var_r",
-      "stanza:example": "Radius var",
+      "stanza:example": "density",
       "stanza:description": "Variable name for radius (default is the third variable)",
       "stanza:required": false
     },
@@ -62,19 +62,19 @@
     },
     {
       "stanza:key": "label_x",
-      "stanza:example": "X axis label",
+      "stanza:example": "Population",
       "stanza:description": "Label for X axis (default is same as the var_x variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "label_y",
-      "stanza:example": "Y axis label",
+      "stanza:example": "Area",
       "stanza:description": "Label for Y axis (default is same as the var_y variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "label_r",
-      "stanza:example": "Point label or var",
+      "stanza:example": "pref",
       "stanza:description": "Tooltip variable name or label for point (default is same as the var_r variable)",
       "stanza:required": false
     },
@@ -102,5 +102,5 @@
   "stanza:contributor": [
   ],
   "stanza:created": "2018-05-04",
-  "stanza:updated": "2018-05-04"
+  "stanza:updated": "2019-10-14"
 }

@@ -32,37 +32,37 @@
     },
     {
       "stanza:key": "key1",
-      "stanza:example": "node1",
+      "stanza:example": "lang1",
       "stanza:description": "Variable name for node1 (default is the first variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "key2",
-      "stanza:example": "node2",
+      "stanza:example": "lang2",
       "stanza:description": "Variable name for node2 (default is the second variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "label1",
-      "stanza:example": "node1label",
+      "stanza:example": "lang1label",
       "stanza:description": "Variable name for the label of node1 (default is the third variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "label2",
-      "stanza:example": "node2label",
+      "stanza:example": "lang2label",
       "stanza:description": "Variable name for the label of node2 (default is the fourth variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "value1",
-      "stanza:example": "node1value",
+      "stanza:example": "lang1value",
       "stanza:description": "Variable name for the value of node1 (default is the fifth variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "value2",
-      "stanza:example": "node2value",
+      "stanza:example": "lang2value",
       "stanza:description": "Variable name for the value of node2 (default is the sixth variable)",
       "stanza:required": false
     },
@@ -86,7 +86,7 @@
     },
     {
       "stanza:key": "label",
-      "stanza:example": "name",
+      "stanza:example": "label",
       "stanza:description": "Variable name for node labels",
       "stanza:required": false
     }
@@ -102,5 +102,5 @@
   "stanza:contributor": [
   ],
   "stanza:created": "2017-09-11",
-  "stanza:updated": "2018-04-06"
+  "stanza:updated": "2019-10-14"
 }

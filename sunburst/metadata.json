@@ -20,7 +20,7 @@
     },
     {
       "stanza:key": "width",
-      "stanza:example": "1000",
+      "stanza:example": "800",
       "stanza:description": "Width of canvas",
       "stanza:required": false
     },
@@ -72,5 +72,5 @@
   "stanza:contributor": [
   ],
   "stanza:created": "2017-09-11",
-  "stanza:updated": "2018-04-06"
+  "stanza:updated": "2019-10-14"
 }

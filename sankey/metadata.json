@@ -20,13 +20,13 @@
     },
     {
       "stanza:key": "width",
-      "stanza:example": "1000",
+      "stanza:example": "800",
       "stanza:description": "Width of canvas",
       "stanza:required": false
     },
     {
       "stanza:key": "height",
-      "stanza:example": "900",
+      "stanza:example": "600",
       "stanza:description": "Height of canvas",
       "stanza:required": false
     },
@@ -38,38 +38,26 @@
     },
     {
       "stanza:key": "key1",
-      "stanza:example": "node1",
+      "stanza:example": "parent",
       "stanza:description": "Variable name for node1 (default is the first variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "key2",
-      "stanza:example": "node2",
+      "stanza:example": "child",
       "stanza:description": "Variable name for node2 (default is the second variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "label1",
-      "stanza:example": "node1label",
+      "stanza:example": "parent_name",
       "stanza:description": "Variable name for the label of node1 (default is the third variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "label2",
-      "stanza:example": "node2label",
+      "stanza:example": "child_name",
       "stanza:description": "Variable name for the label of node2 (default is the fourth variable)",
-      "stanza:required": false
-    },
-    {
-      "stanza:key": "value1",
-      "stanza:example": "node1value",
-      "stanza:description": "Variable name for the value of node1 (default is the fifth variable)",
-      "stanza:required": false
-    },
-    {
-      "stanza:key": "value2",
-      "stanza:example": "node2value",
-      "stanza:description": "Variable name for the value of node2 (default is the sixth variable)",
       "stanza:required": false
     }
   ],
@@ -84,5 +72,5 @@
   "stanza:contributor": [
   ],
   "stanza:created": "2017-09-11",
-  "stanza:updated": "2018-04-06"
+  "stanza:updated": "2019-10-14"
 }

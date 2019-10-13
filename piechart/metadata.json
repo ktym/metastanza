@@ -50,7 +50,7 @@
     },
     {
       "stanza:key": "hole",
-      "stanza:example": "50",
+      "stanza:example": "200",
       "stanza:description": "Radius of a cente hole (set 0 for pie, >0 for doughnut)",
       "stanza:required": false
     }
@@ -66,5 +66,5 @@
   "stanza:contributor": [
   ],
   "stanza:created": "2017-09-11",
-  "stanza:updated": "2018-04-06"
+  "stanza:updated": "2019-10-14"
 }

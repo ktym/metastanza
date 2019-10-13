@@ -31,12 +31,6 @@
       "stanza:required": false
     },
     {
-      "stanza:key": "margin",
-      "stanza:example": "{top: 10, right: 10, bottom: 10, left: 10}",
-      "stanza:description": "Margin width of canvas",
-      "stanza:required": false
-    },
-    {
       "stanza:key": "root",
       "stanza:example": "root_name",
       "stanza:description": "Variable name for a root node (default is the first variable)",
@@ -72,5 +66,5 @@
   "stanza:contributor": [
   ],
   "stanza:created": "2017-09-11",
-  "stanza:updated": "2018-04-06"
+  "stanza:updated": "2019-10-14"
 }

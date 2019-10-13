@@ -31,32 +31,26 @@
       "stanza:required": false
     },
     {
-      "stanza:key": "margin",
-      "stanza:example": "{'top': 10, 'right': 10, 'bottom': 10, 'left': 10}",
-      "stanza:description": "Margin width of canvas",
-      "stanza:required": false
-    },
-    {
       "stanza:key": "root",
-      "stanza:example": "root_name",
+      "stanza:example": "root_label",
       "stanza:description": "Variable name for a root node (default is the first variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "parent",
-      "stanza:example": "parent_name",
+      "stanza:example": "parent_label",
       "stanza:description": "Variable name of parent nodes (default is the second variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "child",
-      "stanza:example": "child_name",
+      "stanza:example": "child_label",
       "stanza:description": "Variable name of child nodes (default is the third variable)",
       "stanza:required": false
     },
     {
       "stanza:key": "value",
-      "stanza:example": "value_name",
+      "stanza:example": "value",
       "stanza:description": "Variable name of numerical value of the child node (default is the fourth variable)",
       "stanza:required": false
     }
@@ -72,5 +66,5 @@
   "stanza:contributor": [
   ],
   "stanza:created": "2017-09-11",
-  "stanza:updated": "2018-04-06"
+  "stanza:updated": "2019-10-14"
 }

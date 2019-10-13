@@ -8,7 +8,7 @@
   "stanza:parameter": [
     {
       "stanza:key": "sparql_api",
-      "stanza:example": "http://togostanza.org/sparqlist/api/d3sparql_roundtree?organism=Ramazzottius",
+      "stanza:example": "http://togostanza.org/sparqlist/api/d3sparql_roundtree?organism=Ramazzottiidae",
       "stanza:description": "SPARQL/REST API URL",
       "stanza:required": true
     },
@@ -78,5 +78,5 @@
   "stanza:contributor": [
   ],
   "stanza:created": "2017-09-04",
-  "stanza:updated": "2018-04-06"
+  "stanza:updated": "2019-10-14"
 }
